@@ -88,8 +88,8 @@ const Home = () => {
     const handleSearch = async (event) => {
         event.preventDefault();
 
-        var app_id = '1e354264';
-        var api_key = '82e48187c1b8adc498454f47de49c209';
+        var app_id = 'xxxxxx';
+        var api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
         try {
             const url = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=${app_id}&app_key=${api_key}&results_per_page=15&what=${searchedJob}&content-type=application/json`
@@ -110,8 +110,8 @@ const Home = () => {
     };
 
     const getJobsFeat = async (jobs) => {
-        var app_id = '1e354264';
-        var api_key = '82e48187c1b8adc498454f47de49c209';
+        var app_id = 'xxxxxxxx';
+        var api_key = 'xxxxxxxxxxxxxxxxxx';
         try {
             const url = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=${app_id}&app_key=${api_key}&results_per_page=50&what=${jobs}&content-type=application/json`
             
@@ -129,8 +129,8 @@ const Home = () => {
     };
 
     const getJobsCate = async (jobs) => {
-        var app_id = '1e354264';
-        var api_key = '82e48187c1b8adc498454f47de49c209';
+        var app_id = 'xxxxxxxxx';
+        var api_key = 'xxxxxxxxxxxxxxxxxxxxxx';
         try {
             const url = `https://api.adzuna.com/v1/api/jobs/us/categories?app_id=${app_id}&app_key=${api_key}&content-type=application/json`
             
