@@ -1,8 +1,9 @@
-# React + Vite
+![JobBoard](https://github.com/timk-dev/JobBoard/blob/main/Screenshot_19-4-2025_2042_needajob-one.vercel.app.jpeg?raw=true)
+# JobBoard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interactive Job Board
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## :desktop_computer: Features
+  * :electric_plug: Responsive
+  * :electric_plug: SEO-Friendly
+  * :electric_plug: UI Animations
