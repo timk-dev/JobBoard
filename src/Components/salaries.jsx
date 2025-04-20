@@ -26,8 +26,8 @@ const Salaries = () => {
     )
 
     const getSalaryDetails = async () => {
-        var app_id = '1e354264';
-        var api_key = '82e48187c1b8adc498454f47de49c209';
+        var app_id = 'xxxxxxxx';
+        var api_key = 'xxxxxxxxxxxxxxxxxxx';
         try {
             const url = `https://api.adzuna.com/v1/api/jobs/us/top_companies?app_id=${app_id}&app_key=${api_key}&what=${top5Job}&content-type=application/json`
             
@@ -45,8 +45,8 @@ const Salaries = () => {
     };
     
     const getSalaryJobsCate = async () => {
-        var app_id = '1e354264';
-        var api_key = '82e48187c1b8adc498454f47de49c209';
+        var app_id = 'xxxxxx';
+        var api_key = 'xxxxxxxxxxxxxxxxxxx';
         try {
             const url = `https://api.adzuna.com/v1/api/jobs/us/history?app_id=${app_id}&app_key=${api_key}&category=${categoryJob}&content-type=application/json`
             
@@ -64,8 +64,8 @@ const Salaries = () => {
     };
 
     const getJobsCate = async (jobs) => {
-        var app_id = '1e354264';
-        var api_key = '82e48187c1b8adc498454f47de49c209';
+        var app_id = 'xxxxxx';
+        var api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxx';
         try {
             const url = `https://api.adzuna.com/v1/api/jobs/us/categories?app_id=${app_id}&app_key=${api_key}&content-type=application/json`
             
